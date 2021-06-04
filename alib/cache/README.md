@@ -6,7 +6,7 @@ cache is a Python clone of [go-cache](https://github.com/patrickmn/go-cache). It
 
 ```python
 from datetime import timedelta
-import alib.cache as cache
+import cache as cache
 
 # Creates a cache with a default expiration time of 5 minutes that cleans old entries once every 10 minutes
 c = cache.Cache()
